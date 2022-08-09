@@ -1,0 +1,747 @@
+{
+  "id": "form_104_2",
+  "column_size": 6,
+  "type": "vertical_horizontal",
+  "fields": {
+    "static": [
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "Тақдим этувчи - хизмат номи",
+            "data_ru": "Наименование услуги - представителя",
+            "rowspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Сатр коди",
+            "data_ru": "Код строки",
+            "rowspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Юридик шахслар учун тариф, сўмда ",
+            "data_ru": "Тариф для юридических лиц, в сумах",
+            "colspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Жисмоний шахслар учун тариф, сўмда",
+            "data_ru": "Тариф для физических лиц, в сумах",
+            "colspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Изоҳ: тариф ўзгариши сабаблари",
+            "data_ru": "Примечание: причины изменения тарифа",
+            "rowspan": "2"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "Ўтган ойда",
+            "data_ru": "предыдущего месяца"
+          },
+          {
+            "type": "static",
+            "data": "Жорий ойда ",
+            "data_ru": "текущего месяца"
+          },
+          {
+            "type": "static",
+            "data": "Ўтган ойда",
+            "data_ru": "предыдущего месяца"
+          },
+          {
+            "type": "static",
+            "data": "Жорий ойда ",
+            "data_ru": "текущего месяца"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "1"
+          },
+          {
+            "type": "static",
+            "data": "2"
+          },
+          {
+            "type": "static",
+            "data": "3"
+          },
+          {
+            "type": "static",
+            "data": "4"
+          },
+
+          {
+            "type": "static",
+            "data": "5"
+          },
+          {
+            "type": "static",
+            "data": "6"
+          },
+          {
+            "type": "static",
+            "data": "7"
+          }
+        ]
+      }
+    ],
+    "dynamic": [
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>ПОЧТА ВА КУРЬЕРЛИК ХИЗМАТИ <br> Вазни 20 граммгача бўлган оддий хатни жўнатиш учун тўлов</p>",
+            "data_ru": "<p style=text-align:left>УСЛУГИ ПОЧТОВЫЕ И КУРЬЕРСКИЕ <br> Плата за пересылку простого письма массой до 20 грамм</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "101",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ўтказиладиган пулнинг ҳар бир тўлиқ ёки тўлиқсиз 1000 сўмига почта пул жўнатмасини юбориш тўлови</p>",
+            "data_ru": "<p style=text-align:left>Плата за пересылку почтового денежного перевода за каждые полные или неполные 1000 сум переводимой суммы</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "102",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Вазни 1 кг жўнатма (пакети)ни ер усти транспортида жўнатиш учун олинадиган тўлов, жумладан қўшимча оғирлик билан (суғурта тўловларисиз) </p>",
+            "data_ru": "<p style=text-align:left>Плата за пересылку одного почтового отправления (посылки) массой 1 кг наземным транспортом, включая дополнительный весовой сбор (без учета платы за страховку).</p> "
+          },
+          {
+            "type": "dynamic",
+            "data": "103",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Қимматбаҳо бандеролни ҳар бир тўлиқ ва тўлиқсиз 500 грамм вазни учун жўнатиш тўлови </p>",
+            "data_ru": "<p style=text-align:left>Плата за пересылку ценной бандероли за каждые полные и неполные 500 грамм массы</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "104",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>ШАҲАР ТЕЛЕФОН АЛОҚАСИ <br> Асосий телефон учун (бир ойлик) абонентлик тўлови </p>",
+            "data_ru": "<p style=text-align:left>ГОРОДСКАЯ ТЕЛЕФОННАЯ СВЯЗЬ<br>Абонентская плата за основной телефон (за месяц)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "105",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Бюджетдан молиялаштирилмайдиган ташкилотлар учун</p>",
+            "data_ru": "<p style=text-align:left>для организаций не финансируемых из бюджета</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "106",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Бюджетдан молиялаштириладиган ташкилотлар учун</p>",
+            "data_ru": "<p style=text-align:left>для организаций финансируемых из бюджета</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "107",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Телефон тармоғига рухсат бериш учун тўлов</p>",
+            "data_ru": "<p style=text-align:left>Плата за предоставление доступа к телефонной сети</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "108",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Бюджетдан молиялаштирилмайдиган ташкилотлар учун</p>",
+            "data_ru": "<p style=text-align:left>для организаций не финансируемых из бюджета</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "109",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "input_type": "number",
+            "data": "x",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Бюджетдан молиялаштириладиган ташкилотлар учун</p>",
+            "data_ru": "<p style=text-align:left>для организаций финансируемых из бюджета</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "110",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Энг кўп юклама бўлган даврда (ҳар бир тўлиқ ва тўлиқсиз дақиқа учун) уланишлар (сўзлашувлар)га автоматик равишда уланиш учун тўлов</p>",
+            "data_ru": "<p style=text-align:left>Плата за предоставление телефонных соединений (разговоров) автоматическим способом в период наибольшей нагрузки (за каждую полную или неполную минуту)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "111",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>ТЕЛЕГРАФ АЛОҚАСИ <br> Ички оддий телеграмма жўнатиш учун (ҳар бир сўз учун) тўлов</p>",
+            "data_ru": "<p style=text-align:left>ТЕЛЕГРАФНАЯ СВЯЗЬ<br>Плата за отправку внутренней телеграммы - обыкновенной (за слово)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "112",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>300 км масофагача, ўтказиш имконияти 50 Бод бўлган телеграф алоқа канали ижараси (тўлиқ ва тўлиқсиз кун) учун тўлов </p>",
+            "data_ru": "<p style=text-align:left>Плата за аренду телеграфных каналов связи при пропускной способности 50 Бод, протяженностью до 300 км (за полные или неполные сутки)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "113",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>600 км гача бўлган масофада маҳаллий ёки бошқа шаҳардаги абонент билан абонент телеграфи орқали сўзлашув (ҳар бир тўлиқ ёки тўлиқсиз дақиқа учун) учун тўлов </p>",
+            "data_ru": "<p style=text-align:left>Плата за разговор по абонентскому телеграфу с местным или иногородним абонентом на расстоянии до 600 км (за каждую полную или неполную минуту)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "114",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g4"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g5"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g6"
+          }
+        ]
+      }
+    ]
+  }
+}

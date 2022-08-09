@@ -1,0 +1,595 @@
+{
+  "id": "form_104_3",
+  "column_size": 6,
+  "type": "vertical_horizontal",
+  "fields": {
+    "static": [
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": " <p style='text-align:left;color:red'><sup>1</sup>Энг арзон оммавий тариф пакети кўрсатилади (имтиёз ва бонуслардан ташқари).</p>",
+            "data_ru": "<p style='text-align:left;color:red'><sup>1</sup> Указывается наиболее доступный массовый тарифный пакет (без учета льгот и бонусов).</p>",
+            "colspan": "8"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "Хизмат номи ",
+            "data_ru": "Наименование услуги",
+            "rowspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Ойлик абонент тўлови ",
+            "data_ru": "Ежемесячная абонентская плата",
+            "colspan": "3"
+          },
+          {
+            "type": "static",
+            "data": "Сатр коди",
+            "data_ru": "Код строки",
+            "rowspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Тариф, сўмда",
+            "data_ru": "Тариф, в сумах",
+            "colspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Изоҳ: тариф ўзгариши сабаблари",
+            "data_ru": "Примечание: причины изменения тарифа",
+            "rowspan": "2"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "Сўзлашув (дақиқа) ",
+            "data_ru": "Разговор (минут)"
+          },
+          {
+            "type": "static",
+            "data": "SMS хабар (дона)",
+            "data_ru": "CMC (штук)"
+          },
+          {
+            "type": "static",
+            "data": "Интернет трафик (МБайт)",
+            "data_ru": "Интернет трафик (МБайт)"
+          },
+          {
+            "type": "static",
+            "data": "ўтган ойда ",
+            "data_ru": "предыду-щего месяца"
+          },
+          {
+            "type": "static",
+            "data": "жорий ойда",
+            "data_ru": "текущего месяца"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "1"
+          },
+          {
+            "type": "static",
+            "data": "2"
+          },
+          {
+            "type": "static",
+            "data": "3"
+          },
+          {
+            "type": "static",
+            "data": "4"
+          },
+
+          {
+            "type": "static",
+            "data": "5"
+          },
+          {
+            "type": "static",
+            "data": "6"
+          },
+          {
+            "type": "static",
+            "data": "7"
+          },
+          {
+            "type": "static",
+            "data": "8"
+          }
+        ]
+      }
+    ],
+    "dynamic": [
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>МОБИЛ АЛОҚА <br> Юридик шахслар учун мобил алоқа тариф пакетлари:<br>Овозли алоқа ва SMS хабар  </p>",
+            "data_ru": "<p style=text-align:left>МОБИЛЬНАЯ СВЯЗЬ <br> Тарифные пакеты мобильной связи для юридических лиц:<br>Голосовая связь и SMS сообщение</p>"
+          },
+          {
+            "type": "static",
+            "data": "<p style='position:absolute; bottom:0px; left:45px'>70</p>"
+          },
+          {
+            "type": "static",
+            "data": "<p style='position:absolute; bottom:0px; left:30px'>20</p>"
+          },
+          {
+            "type": "static",
+            "data": "<p style='position:absolute; bottom:0px; left:55px'>x</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "201",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Овозли алоқа, SMS хабар ва маълумот узатиш (Интернет) (кам истеъмолли пакет)</p>",
+            "data_ru": "<p style=text-align:left>Голосовая связь, SMS сообщение и передача данных (Интернет) (пакет низкого потребления)</p>"
+          },
+          {
+            "type": "static",
+            "data": "70"
+          },
+          {
+            "type": "static",
+            "data": "20"
+          },
+          {
+            "type": "static",
+            "data": "500 МБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "202",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Овозли алоқа, SMS хабар ва маълумот узатиш (Интернет) (кўп истеъмолли пакет)</p>",
+            "data_ru": "<p style=text-align:left>Голосовая связь, SMS сообщение и передача данных (Интернет) (пакет высокого потребления)</p>"
+          },
+          {
+            "type": "static",
+            "data": "70"
+          },
+          {
+            "type": "static",
+            "data": "20"
+          },
+          {
+            "type": "static",
+            "data": "1,5 ГБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "203",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Жисмоний шахслар учун мобил алоқа тариф пакетлари:<br>Овозли алоқа ва SMS хабар </p>",
+            "data_ru": "<p style=text-align:left>Тарифные пакеты мобильной связи для физических лиц:<br>Голосовая связь и SMS сообщение </p>"
+          },
+          {
+            "type": "static",
+            "data": "70"
+          },
+          {
+            "type": "static",
+            "data": "20"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "dynamic",
+            "data": "204",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Овозли алоқа, SMS хабар ва маълумот узатиш (Интернет) (кам истеъмолли пакет)</p>",
+            "data_ru": "<p style=text-align:left>Голосовая связь, SMS сообщение и передача данных (Интернет) (пакет низкого потребления) </p>"
+          },
+          {
+            "type": "static",
+            "data": "140"
+          },
+          {
+            "type": "static",
+            "data": "70"
+          },
+          {
+            "type": "static",
+            "data": "500 МБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "205",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Овозли алоқа, SMS хабар ва маълумот узатиш (Интернет) (кўп истеъмолли пакет</p>",
+            "data_ru": "<p style=text-align:left>Голосовая связь, SMS сообщение и передача данных (Интернет) (пакет высокого потребления)</p>"
+          },
+          {
+            "type": "static",
+            "data": "140"
+          },
+          {
+            "type": "static",
+            "data": "70"
+          },
+          {
+            "type": "static",
+            "data": "1,5 ГБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "206",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>ИНТЕРНЕТ<sup>1</sup><br>Юридик шахслар учун кенг полосали қўзғалмас уланиш тариф пакетлари</p>",
+            "data_ru": "<p style=text-align:left>ИНТЕРНЕТ<sup>1</sup><br>Тарифные пакеты фиксированного широкополосного доступа для юридических лиц </p>"
+          },
+          {
+            "type": "static",
+            "data": "<p style='position:absolute; bottom:0px; left:48px'>x</p>"
+          },
+          {
+            "type": "static",
+            "data": "<p style='position:absolute; bottom:0px; left:32px'>x</p>"
+          },
+          {
+            "type": "static",
+            "data": "<p style='position:absolute; bottom:0px; left:35px'>5 ГБайт</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "207",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Юридик шахслар учун симсиз кенг полосали уланиш тариф пакети (фақат маълумот узатиш учун)</p>",
+            "data_ru": "<p style=text-align:left>Тарифный пакет беспроводного широкополосного доступа для юридических лиц (только для передачи данных) </p>"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "static",
+            "data": "1,5 ГБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "208",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Жисмоний шахслар учун кенг полосали қўзғалмас уланиш тариф пакетлари</p>",
+            "data_ru": "<p style=text-align:left>Тарифные пакеты фиксированного широкополосного доступа для физических лиц </p>"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "static",
+            "data": "5 ГБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "209",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Жисмоний шахслар учун симсиз кенг полосали уланиш тариф пакети (фақат маълумот узатиш учун)</p>",
+            "data_ru": "<p style=text-align:left>Тарифный пакет беспроводного широкополосного доступа для физических лиц (только для передачи данных)</p>"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "static",
+            "data": "x"
+          },
+          {
+            "type": "static",
+            "data": "1,5 ГБайт"
+          },
+          {
+            "type": "dynamic",
+            "data": "210",
+            "store_type": "unique_id",
+            "input_type": "number",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "text",
+            "column_id": "g4"
+          }
+        ]
+      }
+    ]
+  }
+}
